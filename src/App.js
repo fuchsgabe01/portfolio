@@ -1,15 +1,46 @@
-import "./styles/app.scss";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector, useDispatch } from "react-redux"; //move elswhere
+
+//Styles
+import GlobalStyle from "./components/GlobalStyle";
+import styled from "styled-components";
+
+//components
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Work from "./components/Work";
+import ProjExp from "./components/ProjExp";
 
 function App() {
-  const counter = useSelector((state) => state.counter);
-  const dispatch = useDispatch();
+  //const counter = useSelector((state) => state.counter); //move elsever
+  //const dispatch = useDispatch(); //move elsewhere
+
   return (
     <div className="App">
-      <h1>counter: {counter}</h1>
-      <button onClick={() => dispatch({ type: "INCREMENT" })}>press:</button>
+      <Border />
+      <GlobalStyle />
+      <About />
+      <ProjExp />
+      <Work />
     </div>
   );
 }
+
+const Border = styled.div`
+  position: sticky;
+  top: 0;
+  background-color: #c0a062;
+  height: 1px;
+  width: 100%;
+`;
+
+const Spacer = styled.div`
+  background-color: #515151;
+  height: 1px;
+  width: 70%;
+  position: relative;
+  left: 175px;
+  display: flex;
+  justify-content: space-around;
+`;
 
 export default App;

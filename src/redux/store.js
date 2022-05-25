@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import counterReducer from "./reducers/counter";
+import projFilterReducer from "./reducers/projfilter";
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    projFilter: projFilterReducer,
   },
 });

@@ -3,18 +3,22 @@
 //  newline : []
 //}
 
-const counterReducer = (state = 0, action) => {
+const projFilterReducer = (state = "all", action) => {
   switch (action.type) {
-    case "INCREMENT":
-      return state + 1;
-    case "decrement":
-      return state - 1;
+    case "setAll":
+      return (state = "all");
+    case "setCAD":
+      return (state = "cad");
+    case "setMechE":
+      return (state = "meche");
+    case "setSoft":
+      return (state = "soft");
     default:
       return state;
   }
 };
 
-export default counterReducer;
+export default projFilterReducer;
 
 //<h1>counter: {counter}</h1>
 //      <button onClick={() => dispatch({ type: "INCREMENT" })}>up:</button>
