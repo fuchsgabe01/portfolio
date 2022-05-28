@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import resume from "../img/Resume.pdf";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -15,25 +16,16 @@ const Socials = () => {
         <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
       </button>
       <div className="slash">|</div>
-      <button
-        className="socials"
-        onClick={() => window.open("https:https://github.com/fuchsgabe01")}
-      >
-        <FontAwesomeIcon icon={faGithub} size="2x" />
-      </button>
-      <div className="slash">|</div>
+
       <button
         className="socials"
         onClick={() => window.open("mailto:gdf42@cornell.edu")}
       >
-        <FontAwesomeIcon icon={faEnvelope} size="2x" />
+        <FontAwesomeIcon icon={faEnvelope} size={"2x"} />
       </button>
       <div className="slash">|</div>
-      <button
-        className="socials"
-        onClick={() => window.open("mailto:gdf42@cornell.edu")}
-      >
-        <span> </span> Resume
+      <button className="res" onClick={() => window.open(resume)}>
+        RESUME
       </button>
     </Block>
   );
@@ -42,10 +34,11 @@ const Socials = () => {
 const Block = styled.div`
   display: flex;
   flex-direction: row;
+
   justify-content: space-between;
-  width: 35%;
+  width: 30%;
   position: relative;
-  top: -5%;
+  top: -10%;
 
   button {
     background: transparent;
@@ -59,9 +52,21 @@ const Block = styled.div`
   }
 
   .slash {
-    color: #888888;
-    font-size: 23px;
+    color: #b4b4b4;
+    font-size: 1vw;
+  }
+
+  .res {
+    font-family: "Koulen", cursive;
+    font-size: 18px;
   }
 `;
 
 export default Socials;
+
+//<button
+//className="socials"
+//onClick={() => window.open("https:https://github.com/fuchsgabe01")}
+//>
+//<FontAwesomeIcon icon={faGithub} size="2x" />
+//</button>

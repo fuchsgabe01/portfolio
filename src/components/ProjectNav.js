@@ -48,6 +48,7 @@ const StyledNav = styled.div`
   .header {
     position: relative;
     top: 3%;
+    width: 50%;
     left: 12.5%;
     font-size: 35px;
     padding: 20px;

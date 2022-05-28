@@ -24,9 +24,7 @@ const About = () => {
         </Para>
         <Socials />
       </Text>
-      <div className="hshot">
-        <img src={headshot} width="350" alt="myself" />
-      </div>
+      <img className="styleImage" src={headshot} alt="myself" />
     </Block>
   );
 };
@@ -35,12 +33,14 @@ const Block = styled.div`
   background-color: #141414;
   display: flex;
   justify-content: space-around;
-  height: 450px;
+  height: 60vh;
 
-  .hshot {
+  .styleImage {
     position: relative;
     left: -7.5%;
     top: 10%;
+    width: 21vw;
+    height: 21vw;
   }
 `;
 
@@ -49,13 +49,13 @@ const Text = styled.div`
   flex-direction: column;
   justify-content: space-around;
   position: relative;
-  left: 7.5%;
-  top: -5%;
+  left: 2vw;
+  top: -2vw;
 
   .heading {
     font-family: "Koulen", cursive;
     color: white;
-    font-size: 65px;
+    font-size: 4vw;
     position: relative;
     top: 13%;
   }
@@ -63,7 +63,7 @@ const Text = styled.div`
   .b2,
   .b3 {
     color: white;
-    font-size: 20px;
+    font-size: 1.1vw;
   }
 `;
 
