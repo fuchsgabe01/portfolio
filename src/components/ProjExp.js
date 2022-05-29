@@ -59,7 +59,7 @@ const Block = styled.div`
 
   .darkBlock {
     background: #101010;
-    width: 80%;
+    width: clamp(200px, 80%, 1900px);
     margin: auto;
     border-radius: 1vw;
   }

@@ -10,7 +10,6 @@ const ProjectNav = () => {
   return (
     <StyledNav>
       <div className="filters">
-        <div className="filt">Filters:</div>
         <button
           className={`${projFilter === "all" ? "focus" : "notFocus"}`}
           onClick={() => dispatch({ type: "setAll" })}
@@ -59,7 +58,7 @@ const StyledNav = styled.div`
     left: 14%;
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 40%;
 
     button {
       font-family: "Lato", sans-serif;
@@ -67,8 +66,12 @@ const StyledNav = styled.div`
       border: none;
       margin: 0;
       padding: 0px 2px 0px 2px;
-      font-size: 15px;
-      height: 60%;
+      font-size: 1vw;
+      height: 1.5vw;
+      position: relative;
+      top: 25%;
+      border-radius: 5vw;
+      width: 6vw;
 
       cursor: pointer;
       &:hover {

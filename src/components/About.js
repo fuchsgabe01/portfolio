@@ -33,7 +33,7 @@ const Block = styled.div`
   background-color: #141414;
   display: flex;
   justify-content: space-around;
-  height: 60vh;
+  height: 28vw;
 
   .styleImage {
     position: relative;

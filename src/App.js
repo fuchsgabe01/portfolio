@@ -1,5 +1,4 @@
-import { useSelector, useDispatch } from "react-redux"; //move elswhere
-
+import React, { Component } from "react";
 //Styles
 import GlobalStyle from "./components/GlobalStyle";
 import styled from "styled-components";
