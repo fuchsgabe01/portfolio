@@ -53,7 +53,7 @@ const Block = styled.div`
 
   .slash {
     color: #b4b4b4;
-    font-size: 1vw;
+    font-size: 25px;
   }
 
   .res {

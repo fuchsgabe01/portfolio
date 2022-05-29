@@ -14,8 +14,6 @@ const Work = () => {
   );
 };
 
-const StyledWork = styled.div`
-  background-color: #141414;
-`;
+const StyledWork = styled.div``;
 
 export default Work;

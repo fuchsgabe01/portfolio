@@ -7,7 +7,6 @@ import styled from "styled-components";
 //components
 import Nav from "./components/Nav";
 import About from "./components/About";
-import Work from "./components/Work";
 import ProjExp from "./components/ProjExp";
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
       <GlobalStyle />
       <About />
       <ProjExp />
-      <Work />
     </div>
   );
 }
