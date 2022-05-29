@@ -16,7 +16,7 @@ const ProjBlock = ({ title, type, imgname, tag, link1, link2 }) => {
 
 const StyledProjectsBlock = styled.div`
   background-color: #ececec;
-  min-height: 50vh;
+  height: 20vw;
   width: 25%;
   border-radius: 3vh;
   margin: 4%;
