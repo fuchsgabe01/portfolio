@@ -16,7 +16,7 @@ const Projects = () => {
             title={work.title}
             type={work.type}
             imgname={work.imgname}
-            tag={work.tag}
+            prog={work.prog}
             link1={work.link1}
             link2={work.link2}
           />

@@ -7,7 +7,7 @@ const projectDataOrganizer = [
     imgname: "marsship4by3.png",
 
     //type of cad
-    tag: "blender",
+    prog: "blender",
     link1: "more-info",
     link2: "",
   },
@@ -19,7 +19,7 @@ const projectDataOrganizer = [
     imgname: "marsship4by3.png",
 
     //type of cad
-    tag: "blender",
+    prog: "fusion",
     link1: "more-info",
     link2: "",
   },
@@ -31,7 +31,7 @@ const projectDataOrganizer = [
     imgname: "marsship4by3.png",
 
     //type of cad
-    tag: "blender",
+    prog: "inventor",
     link1: "more-info",
     link2: "",
   },
@@ -43,7 +43,7 @@ const projectDataOrganizer = [
     imgname: "marsship4by3.png",
 
     //type of cad
-    tag: "blender",
+    prog: "solidworks",
     link1: "more-info",
     link2: "",
   },

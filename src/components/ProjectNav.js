@@ -52,10 +52,10 @@ const StyledNav = styled.div`
     border-style: solid;
     border-radius: 10vw;
     border-color: white;
-    height: 3vw;
+    height: 2.25vw;
     font-size: 15px;
     position: relative;
-    left: 14%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     width: 40%;
@@ -69,7 +69,7 @@ const StyledNav = styled.div`
       font-size: 1vw;
       height: 1.5vw;
       position: relative;
-      top: 25%;
+      top: 10%;
       border-radius: 5vw;
       width: 6vw;
 
@@ -85,8 +85,8 @@ const StyledNav = styled.div`
     }
 
     .notFocus {
-      background: none;
-      color: #a2a2a2;
+      background: #1b1b1b;
+      color: #d2d2d2;
     }
 
     .but2 {
