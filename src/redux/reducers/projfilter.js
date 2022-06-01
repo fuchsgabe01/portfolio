@@ -1,8 +1,3 @@
-//const init = {
-//  hello : [],
-//  newline : []
-//}
-
 const projFilterReducer = (state = "all", action) => {
   switch (action.type) {
     case "setAll":

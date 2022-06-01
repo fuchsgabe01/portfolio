@@ -14,6 +14,8 @@ const Work = () => {
   );
 };
 
-const StyledWork = styled.div``;
+const StyledWork = styled.div`
+  min-height: 60vw;
+`;
 
 export default Work;

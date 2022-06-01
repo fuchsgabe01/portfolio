@@ -7,10 +7,13 @@ import styled from "styled-components";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import ProjExp from "./components/ProjExp";
+import MoreInfoComp from "./components/MoreInfoComp";
+
+import { useSelector, useDispatch } from "react-redux";
 
 function App() {
-  //const counter = useSelector((state) => state.counter); //move elsever
-  //const dispatch = useDispatch(); //move elsewhere
+  const extraInfo = useSelector((state) => state.extraInfo);
+  const dispatch = useDispatch();
 
   return (
     <div className="App">
@@ -18,6 +21,7 @@ function App() {
       <GlobalStyle />
       <About />
       <ProjExp />
+      {extraInfo.showing === true ? <MoreInfoComp /> : null}
     </div>
   );
 }

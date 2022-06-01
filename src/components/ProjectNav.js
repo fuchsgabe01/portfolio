@@ -49,9 +49,9 @@ const StyledNav = styled.div`
 
   .filters {
     background-color: #101010;
-    border-style: solid;
+    //border-style: solid;
     border-radius: 10vw;
-    border-color: white;
+    border-color: #646464;
     height: 2.25vw;
     font-size: 15px;
     position: relative;

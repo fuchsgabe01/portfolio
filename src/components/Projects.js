@@ -14,6 +14,7 @@ const Projects = () => {
         projFilter === "all" || projFilter === work.type ? (
           <ProjBlock
             title={work.title}
+            id={work.id}
             type={work.type}
             imgname={work.imgname}
             prog={work.prog}
