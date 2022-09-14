@@ -2,61 +2,48 @@ const projectDataOrganizer = [
   {
     title: "Mars spaceship design for contest entry",
     id: 1,
-
-    //cad,meche,soft
     type: "cad",
     imgname: "marsship4by3.png",
-
-    //type of cad
     prog: "blender",
-    link1: "more-info",
-    link2: "",
   },
   {
     title: "Mars landscape design for contest entry",
     id: 2,
-    //cad,meche,soft
     type: "cad",
     imgname: "mars-output-4x3.png",
-
-    //type of cad
     prog: "blender",
-    link1: "more-info",
-    link2: "",
   },
   {
-    title: "meche test",
+    title: "Reuleaux Machine Kinematic Design",
     id: 3,
-    //cad,meche,soft
-    type: "meche",
-    imgname: "marsship4by3.png",
-
-    //type of cad
-    prog: "inventor",
-    link1: "more-info",
-    link2: "",
+    type: "cad",
+    imgname: "reu1.png",
+    prog: "fusion",
   },
   {
-    title: "soft test",
+    title: "Blender cad design",
     id: 4,
-    //cad,meche,soft
-    type: "soft",
-    imgname: "marsship4by3.png",
-
-    //type of cad
-    prog: "solidworks",
-    link1: "more-info",
-    link2: "",
+    type: "cad",
+    imgname: "blender1.png",
+    prog: "fusion",
+  },
+  {
+    title: "Ultra Light Weight Tripod Connection",
+    id: 5,
+    type: "meche",
+    imgname: "tripod3.png",
+    prog: "none",
   },
 ];
 
 export default projectDataOrganizer;
 
-// {
-//     title: "",
+//type: cad, meche, soft
+//prog: solidworks, fusion, blender, inventor
+
+// title: "",
+//     id: ,
 //     type: "",
-//     imgloc: "",
-//     tag: "",
-//     link1: "",
-//     link2: "",
-//   }
+//     imgname: "",
+//     prog: "",
+//   },

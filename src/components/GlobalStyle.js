@@ -8,12 +8,12 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-  
   p,
   h1,
   h2,
   h3 {
-    color: rgb(0, 0, 0);
+  color: black;
+
   }
   body {
     font-family: "Lato", sans-serif;
